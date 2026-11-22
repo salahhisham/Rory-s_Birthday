@@ -63,19 +63,19 @@
             outline: none;
         }
         .loginPage img{
-            width: 6vh;
+            width: 4vh;
             position: absolute;
         }
         .loginPage .images-funka{
             position: relative;
         }
         .f1{
-            right: 10vh;
+            right: 6vh;
             transform: rotate(290deg);
             mix-blend-mode: multiply;
         }
         .f2{
-            right: 10vh;
+            right: 6vh;
             top: 5vh;
             transform: rotate(290deg);
             mix-blend-mode: multiply;
