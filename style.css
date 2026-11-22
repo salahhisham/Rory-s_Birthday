@@ -70,12 +70,12 @@
             position: relative;
         }
         .f1{
-            right: 14vh;
+            right: 10vh;
             transform: rotate(290deg);
             mix-blend-mode: multiply;
         }
         .f2{
-            right: 14vh;
+            right: 10vh;
             top: 5vh;
             transform: rotate(290deg);
             mix-blend-mode: multiply;
