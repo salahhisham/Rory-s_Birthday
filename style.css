@@ -1,0 +1,181 @@
+        .body2{
+            margin: 0;
+        }
+        .header{
+            background-color: #750808;
+            padding: 5px;
+            border-radius: 0 0 5% 5% ;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img{
+            width:13%;
+            height:15%;
+            border-radius: 15%;
+        }
+        .Name{
+            
+            display: flex;
+            align-items: center;
+            gap: 1vh;
+        }
+        .Name button{
+            border: none;
+            border-radius: 999vh;
+            cursor: pointer;
+            box-shadow: 0 6px 18px rgba(255, 107, 139, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+        }
+        .Name button:hover{
+            transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(255, 107, 139, 0.42);
+  filter: brightness(1.04);
+        }
+        .Name button:active{
+      transform: translateY(1px) scale(0.97);
+  box-shadow: 0 4px 10px rgba(255, 107, 139, 0.25);
+}
+
+        .header .Name a:hover{
+            background-color: rgb(250, 49, 22);
+            border-radius: 15%;
+            }
+        .loginPage h2{
+            position: relative;
+            top: -20vh;
+        }
+        .loginPage .div1{
+            position: relative;
+            top: -1vh;
+
+        }
+        .loginPage{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .loginPage input{
+            border-radius: 30%;
+            border-color: red;
+            outline: none;
+        }
+        .loginPage img{
+            width: 6vh;
+            position: absolute;
+        }
+        .loginPage .images-funka{
+            position: relative;
+        }
+        .f1{
+            right: 14vh;
+            transform: rotate(290deg);
+            mix-blend-mode: multiply;
+        }
+        .f2{
+            right: 14vh;
+            top: 5vh;
+            transform: rotate(290deg);
+            mix-blend-mode: multiply;
+        }
+        .body1{
+            background-image: url(Background.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover ;
+            min-height: 100vh;
+            margin: 0vh;
+            color: rgb(64, 135, 212);
+        }
+        .loginPage .button{
+            border-radius: 20%;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 83, 83) ;
+
+        }
+        .stik img {
+  display: none;
+  position: absolute;
+  width:23%;
+}
+
+.stik img.active-dance {
+  display: block;
+  animation: danceLoop 1s ease-in-out infinite;
+}
+
+.flork1{
+    top: 20%;
+}
+.CDog{
+    top: 33%;
+}
+.flork2{
+    top:20%;
+    left: 77%;
+}
+.SS{
+    top:33%;
+    left: 77%;
+}
+.cat1{
+    left: 77%;
+    top: 60%;
+}
+.SCat{
+     top: 56%;
+}
+.hamester{
+    top: 75%;
+}
+.SDog{
+    top: 75%;
+    left: 77%;
+
+}
+
+@keyframes danceLoop {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(-8deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(8deg);
+  }
+  75% {
+    transform: translateY(-12px) rotate(-6deg);
+  }
+}
+.body2{
+            background-image: url(background2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover ;
+            min-height: 100vh;
+            margin: 0vh;
+        }
+        .BTN2{
+            display: flex;
+            align-items: center;
+        }
+        .BTN2 button{
+            border: none;
+            color: white;
+            border-radius: 999px;
+            background-color: rgb(255, 58, 58);
+            box-shadow: 0 6px 18px rgba(255, 107, 139, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+        }
+        .BTN2 button:hover{
+            transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(255, 107, 139, 0.42);
+  filter: brightness(1.04);
+        }
+        .BTN2 button:active{
+      transform: translateY(1px) scale(0.97);
+  box-shadow: 0 4px 10px rgba(255, 107, 139, 0.25);
+}
